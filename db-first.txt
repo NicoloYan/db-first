@@ -1,0 +1,15 @@
+CARS DATABASE
+
+id: SMALLINT - PRIMARY_KEY (NOTNULL,UNIQUE, AUTOINCREMENT, INDEX)
+model: VARCHAR(30) - NOTNULL
+brand: VARCHAR(30) - NOTNULL
+production_year: YEAR - NOTNULL
+price: DECIMAL (8, 2) - NOTNULL
+mileage: MEDIUMINT - NOTNULL
+number_of_seats: TINYINT - NULL
+type_of_fuel: VARCHAR(30) - NOTNULL
+engine_method_of_aspiration: VARCHAR(20) - NULL
+amount_of_hp: SMALLINT - NOTNULL
+production_country: VARCHAR(30) - NULL
+description: TEXT - NULL
+image: TEXT - DEFAULT(https://google.com/placeholder_car_img.jpeg)
